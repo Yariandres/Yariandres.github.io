@@ -1,3 +1,56 @@
+/* VARIABLES */
+:root {
+  --primary-Red: hsl(0, 78%, 62%);
+  --primary-Cyan: hsl(180, 62%, 55%);
+  --primary-Orange: hsl(34, 97%, 64%);
+  --primary-Blue: hsl(212, 86%, 64%);
+
+  --neutral-very-dark-blue: hsl(234, 12%, 34%);
+  --neutral-grayish-blue: hsl(229, 6%, 66%);
+}
+
+/* SIMPLE RESET */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-size: 1.5rem;
 }
+
+/* HERO SECTION */
+.hero {
+  margin: 7rem 0;
+  padding: 0 20%;
+}
+
+.hero-title {
+  font-weight: 300;
+  text-align: center;
+  color: var(--neutral-very-dark-blue);
+}
+
+.hero-bold-text {
+  font-weight: 600;
+  display: block;
+  margin: 1rem 0;
+  color: #000;
+}
+
+.hero-paragraph {
+  color: var(--neutral-very-dark-blue);
+  text-align: center;
+}
+
+
